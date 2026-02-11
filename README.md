@@ -62,7 +62,7 @@
 
 ---
 
-#### � **Tablet - Experiencia Equilibrada**
+#### ✨ **Tablet - Experiencia Equilibrada**
 
 <table>
 <tr>
