@@ -1,9 +1,9 @@
-# � **Tienda Online Responsive**  
+# ✨ **Tienda Online Responsive**  
 ### *Diseño Adaptativo para Experiencias de Compra Excepcionales*
 
 ---
 
-## � **Descripción del Proyecto**
+## ✨ **Descripción del Proyecto**
 
 > 🚀 **Proyecto innovador** que transforma una tienda online tradicional en una **experiencia de compra completamente responsive**, implementando las mejores prácticas de **Mobile First** con **Flexbox** y **CSS Grid** para garantizar una navegación perfecta en cualquier dispositivo.
 
@@ -21,7 +21,7 @@
 
 ---
 
-## � **Galería Responsive - Antes y Después**
+## ✨ **Galería Responsive - Antes y Después**
 
 ### 📸 **Visual Comparativo de Dispositivos**
 
