@@ -1,22 +1,22 @@
-# 📱 E-commerce Responsive Design Implementation
+# 📱 Implementación de Diseño Responsive para E-commerce
 
-## 📋 Overview
+## 📋 Descripción General
 
 Este proyecto implementa un sistema de diseño responsive completo para una tienda online, utilizando las mejores prácticas de **Mobile First** con **Flexbox** y **CSS Grid** para garantizar una experiencia óptima en todos los dispositivos.
 
-## 🎯 Objectives Achieved
+## 🎯 Objetivos Alcanzados
 
-- ✅ **Mobile First Approach**: Diseño optimizado para dispositivos móviles
-- ✅ **Flexible Layout**: Flexbox para estructura base y productos
-- ✅ **Advanced Grid System**: CSS Grid para layouts complejos
-- ✅ **Cross-Device Compatibility**: Adaptación perfecta en todos los tamaños
-- ✅ **Performance Optimized**: Media queries eficientes y CSS optimizado
+- ✅ **Enfoque Mobile First**: Diseño optimizado para dispositivos móviles
+- ✅ **Layout Flexible**: Flexbox para estructura base y productos
+- ✅ **Sistema de Grid Avanzado**: CSS Grid para layouts complejos
+- ✅ **Compatibilidad Multi-dispositivo**: Adaptación perfecta en todos los tamaños
+- ✅ **Rendimiento Optimizado**: Media queries eficientes y CSS optimizado
 
-## 🖼️ Responsive Breakpoints - Visual Comparison
+## 🖼️ Puntos de Interrupción Responsive - Comparación Visual
 
-### 📱 Mobile (<768px)
+### 📱 Móvil (<768px)
 
-#### **Mobile Vertical**
+#### **Móvil Vertical**
 ![Mobile Vertical](img/Cap%20Responsive/capCelularVertical.png)
 
 **Características implementadas:**
@@ -26,7 +26,7 @@ Este proyecto implementa un sistema de diseño responsive completo para una tien
 - **Tipografía**: Tamaños de fuente optimizados para lectura móvil
 - **Imágenes**: 100% fluidas sin scroll horizontal
 
-#### **Mobile Horizontal**
+#### **Móvil Horizontal**
 ![Mobile Horizontal](img/Cap%20Responsive/capCelularHorizontal.png)
 
 **Características implementadas:**
@@ -57,9 +57,9 @@ Este proyecto implementa un sistema de diseño responsive completo para una tien
 
 ---
 
-### 💻 Desktop (≥1024px)
+### 💻 Escritorio (≥1024px)
 
-#### **Desktop View**
+#### **Vista Escritorio**
 ![Desktop](img/Cap%20Responsive/capDesktop.png)
 
 **Características implementadas:**
@@ -71,12 +71,12 @@ Este proyecto implementa un sistema de diseño responsive completo para una tien
 
 ---
 
-## 🛠️ Technical Implementation
+## 🛠️ Implementación Técnica
 
 ### **Archivo Principal: `css/responsive.css`**
 
 ```css
-/* Mobile First Base Styles */
+/* Base Mobile First */
 .product-grid,
 .products-grid {
     display: flex;
@@ -85,7 +85,7 @@ Este proyecto implementa un sistema de diseño responsive completo para una tien
     gap: 20px;
 }
 
-/* Tablet Adaptation (768px - 1023px) */
+/* Adaptación Tablet (768px - 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
     .product-grid,
     .products-grid {
@@ -95,7 +95,7 @@ Este proyecto implementa un sistema de diseño responsive completo para una tien
     }
 }
 
-/* Desktop Enhancement (≥1024px) */
+/* Mejoras Escritorio (≥1024px) */
 @media (min-width: 1024px) {
     .product-grid,
     .products-grid {
@@ -106,7 +106,7 @@ Este proyecto implementa un sistema de diseño responsive completo para una tien
 }
 ```
 
-### **Breakpoints Strategy**
+### **Estrategia de Breakpoints**
 
 | Dispositivo | Rango | Columnas | Gap | Layout |
 |-------------|-------|----------|-----|---------|
@@ -115,28 +115,28 @@ Este proyecto implementa un sistema de diseño responsive completo para una tien
 | 💻 Desktop | ≥1024px | 3-4 | 30px | CSS Grid |
 | 🖥️ Large Desktop | ≥1440px | 4 | 35px | CSS Grid |
 
-## 🎨 Design Features
+## 🎨 Características de Diseño
 
-### **Mobile Optimizations**
+### **Optimizaciones Móvil**
 - ✅ Menú hamburguesa con animaciones suaves
 - ✅ Sin scroll horizontal
 - ✅ Imágenes 100% responsive
 - ✅ Áreas de toque optimizadas
 - ✅ Tipografía legible en pantallas pequeñas
 
-### **Tablet Enhancements**
+### **Mejoras Tablet**
 - ✅ Grid de 2 columnas equilibrado
 - ✅ Espaciado aumentado para mejor lectura
 - ✅ Navegación horizontal optimizada
 - ✅ Contenido centrado y bien distribuido
 
-### **Desktop Features**
+### **Características Escritorio**
 - ✅ Grid automático con 3-4 columnas
 - ✅ Efectos hover avanzados
 - ✅ Contenedor limitado para mejor legibilidad
 - ✅ Microinteracciones y transiciones suaves
 
-## 📁 File Structure
+## 📁 Estructura de Archivos
 
 ```
 ecommerce-static/
@@ -157,9 +157,9 @@ ecommerce-static/
 └── [archivos HTML]       # Todos enlazados a responsive.css
 ```
 
-## 🔧 Implementation Details
+## 🔧 Detalles de Implementación
 
-### **HTML Integration**
+### **Integración HTML**
 Todos los archivos HTML incluyen el enlace a `responsive.css`:
 
 ```html
@@ -177,28 +177,28 @@ Todos los archivos HTML incluyen el enlace a `responsive.css`:
 - ✅ pages/privacy.html
 - ✅ pages/terms.html
 
-### **CSS Architecture**
+### **Arquitectura CSS**
 - **Mobile First**: Estilos base para móviles
-- **Progressive Enhancement**: Mejoras para tablets y desktop
-- **Performance**: Media queries optimizadas
-- **Accessibility**: Soporte para preferencias de usuario
-- **Print**: Estilos optimizados para impresión
+- **Mejora Progresiva**: Mejoras para tablets y escritorio
+- **Rendimiento**: Media queries optimizadas
+- **Accesibilidad**: Soporte para preferencias de usuario
+- **Impresión**: Estilos optimizados para impresión
 
-## 🚀 Benefits Achieved
+## 🚀 Beneficios Alcanzados
 
-### **User Experience**
+### **Experiencia de Usuario**
 - 🎯 **Experiencia consistente** en todos los dispositivos
 - 📱 **Navegación intuitiva** adaptada a cada pantalla
 - ⚡ **Rendimiento optimizado** con CSS eficiente
 - 🎨 **Diseño moderno** y profesional
 
-### **Technical Benefits**
+### **Beneficios Técnicos**
 - 📦 **Código mantenible** y bien organizado
 - 🔧 **Fácil actualización** de breakpoints
 - 🎯 **CSS optimizado** sin redundancias
-- 📱 **Future-proof** para nuevos dispositivos
+- 📱 **Preparado para futuro** para nuevos dispositivos
 
-## 📊 Browser Compatibility
+## 📊 Compatibilidad de Navegadores
 
 - ✅ Chrome 60+
 - ✅ Firefox 55+
@@ -207,7 +207,7 @@ Todos los archivos HTML incluyen el enlace a `responsive.css`:
 - ✅ iOS Safari 12+
 - ✅ Android Chrome 60+
 
-## 🎯 Conclusion
+## 🎯 Conclusión
 
 La implementación responsive ha transformado completamente la experiencia de usuario del ecommerce, proporcionando:
 
