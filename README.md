@@ -217,3 +217,23 @@ La implementación responsive ha transformado completamente la experiencia de us
 4. **Código escalable** preparado para futuras actualizaciones
 
 El proyecto ahora ofrece una experiencia de compra excepcional sin importar el dispositivo utilizado por el usuario.
+
+---
+
+## 👥 Autores del Proyecto
+
+### **GRUPO 1**
+
+| Integrante | Rol |
+|------------|------|
+| **ALMEIDA COELLO BYRON OMAR** | Desarrollador Frontend & Líder de Proyecto |
+| **ANDRADE LOOR THALIA MERCEDES** | Diseñadora UX/UI & Responsiva |
+| **JARAMILLO RIVERA JOHN DAVID** | Desarrollador CSS & Optimización |
+| **MORA QUIJIJE YARITZA CRISTHEL** | Testing & Control de Calidad |
+
+**Contribuciones del equipo:**
+- 🎨 **Diseño y experiencia de usuario** optimizados para todos los dispositivos
+- 📱 **Implementación responsive** con mejores prácticas Mobile First
+- 🔧 **Desarrollo técnico** de CSS Grid y Flexbox avanzados
+- ✅ **Testing exhaustivo** en múltiples dispositivos y navegadores
+- 📚 **Documentación completa** del proyecto y sus características
